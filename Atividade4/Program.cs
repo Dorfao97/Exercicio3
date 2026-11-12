@@ -19,7 +19,7 @@ int ConverterASCII(char letra)
 
 void CriarVetorASCII()
 {
-    for (int i = 0; i < vetor1.Length; i+=2)
+    for (int i = 0; i < vetor2.Length; i+=2)
     {
         vetor2[i] = vetor1[i/2].ToString();
         vetor2[i+1] = ConverterASCII(vetor1[i/2]).ToString();
